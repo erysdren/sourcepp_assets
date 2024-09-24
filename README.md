@@ -1,2 +1,2 @@
 # sourcepp_assets
-SourcePP test assets
+[SourcePP](https://github.com/craftablescience/sourcepp) test assets
