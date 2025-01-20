@@ -39,7 +39,7 @@
         ]
 ]
 
-@ExtendClass = entity_name : ""
+@ExtendClass = entity_name : "" : "this is a JACK feature to add a docs link"
 [
         portal4(void) : "Portal 4 but better"
 
