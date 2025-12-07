@@ -1,0 +1,56 @@
+<!-- dmx encoding keyvalues2 4 format vtex 1 -->
+"CDmeVtex"
+{
+	"id" "elementid" "b6a1a367-096d-4b66-a464-bf7a43bbf36b"
+	"m_inputTextureArray" "element_array" 
+	[
+		"CDmeInputTexture"
+		{
+			"id" "elementid" "f80f2620-b3f2-4d76-acde-ea016ad03de5"
+			"m_name" "string" "InputTexture0"
+			"m_fileName" "string" "materials/my_textures/my_texture.png"
+			"m_colorSpace" "string" "srgb"
+			"m_typeString" "string" "2D"
+			"m_imageProcessorArray" "element_array" 
+			[
+				"CDmeImageProcessor"
+				{
+					"id" "elementid" "17c8d577-7f0e-45c6-adcc-9b73146b1ecb"
+					"m_algorithm" "string" "None"
+					"m_stringArg" "string" ""
+					"m_vFloat4Arg" "vector4" "0 0 0 0"
+				}
+			]
+		}
+	]
+	"m_outputTypeString" "string" "2D"
+	"m_outputFormat" "string" "DXT1"
+	"m_outputClearColor" "vector4" "0 0 0 0"
+	"m_nOutputMinDimension" "int" "0"
+	"m_nOutputMaxDimension" "int" "0"
+	"m_textureOutputChannelArray" "element_array" 
+	[
+		"CDmeTextureOutputChannel"
+		{
+			"id" "elementid" "0653d148-0406-4bc3-862f-e0dbd98608f0"
+			"m_inputTextureArray" "string_array" 
+			[
+				"InputTexture0"
+			]
+			"m_srcChannels" "string" "rgba"
+			"m_dstChannels" "string" "rgba"
+			"m_mipAlgorithm" "CDmeImageProcessor"
+			{
+				"id" "elementid" "781aa0b3-5369-4de9-b117-30e682a69dd2"
+				"m_algorithm" "string" "Box"
+				"m_stringArg" "string" ""
+				"m_vFloat4Arg" "vector4" "0 0 0 0"
+			}
+
+			"m_outputColorSpace" "string" "srgb"
+		}
+	]
+	"m_vClamp" "vector3" "0 0 0"
+	"m_bNoLod" "bool" "0"
+}
+
