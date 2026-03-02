@@ -8,7 +8,7 @@
         studio("path/model space dot mdl")
 = entity_name :
         "An entity that can be linked to another door and create a passage between them dynamically.\n" +
-        "This is a separate line!"
+        "\tThis is a separate line!"
 [
         portal1(int) readonly
         portal2(int) : "Portal 2"
@@ -43,7 +43,7 @@
 [
         portal4(void) : "Portal 4 but better"
 
-        model(choices) : "Model used" : "models/something05.mdl" =
+        model(choices) : "Model used" : "models/something05.mdl" : "This is a choices \"description\"" =
         [
             "models/something04.mdl" : "something"
             "models/something05.mdl" : "something else (default)"
